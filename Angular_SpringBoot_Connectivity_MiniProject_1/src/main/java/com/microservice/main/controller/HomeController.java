@@ -39,6 +39,8 @@ public class HomeController {
 	String msg=enquiryService.deleteData(id);
 	return msg;
 		
+	
+	
 	}
 	
 	
