@@ -1,14 +1,15 @@
 package com.microservice.main.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
 @Entity
 public class Enquirystudent {
 @Id
-@GeneratedValue(strategy = GenerationType.IDENTITY)
+@GeneratedValue
+(strategy = GenerationType.IDENTITY)
 	int id;
 	String firstname;
 	String lastname;
